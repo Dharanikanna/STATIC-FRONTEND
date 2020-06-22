@@ -1,0 +1,115 @@
+.one a{
+	
+			border-top:solid;
+			border-bottom: solid;
+			padding: 1% 5%;
+			font-family: Times New Roman;
+			color: black;
+			font-weight: bold;
+			font-size: 200%;
+			cursor: context-menu;
+			transition: 1s;
+
+		}
+		.one a:hover {
+
+			box-shadow: 0 0 10px #7FFF00, 0 0 40px #7FFF00, 0 0 80px #7FFF00;
+			background-color: #7FFF00;
+			padding: 1% 15%;
+			color: black;
+			width:100%;
+			border-radius:10px;
+
+
+		}
+
+		.two {
+			border-top: solid;
+			background-color: white;
+			border-bottom: solid;
+			opacity: 0.8;
+			}
+		.three a{
+			top: 0;
+			border-top: none;
+			border-bottom: none;
+			box-shadow: none;
+			transition: 1s;
+			margin-right: 300px;
+			top: 0;
+
+		}
+		.three a:hover {
+			border-top: none;
+			border-bottom: none;
+			box-shadow: none;
+			background-color: transparent;
+			opacity: 1;
+			margin-left: 300px;
+		}
+		
+		body{
+			background:url(bg1.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin:0;
+            padding:0;
+
+		}
+		
+
+		.topnav a {
+		   border-bottom: solid;
+		   border-bottom-color: black;
+		   float: left;
+		   display: block;
+		   color: #f2f2f2;
+		   text-align: center;
+		   padding: 14px 16px;
+		   text-decoration: none;
+		   background-color: #FF7F50;
+		   width: 40px;
+		   transition: 0.5s;
+
+		}
+
+		.topnav a:hover {
+		   box-shadow: 5px 10px 5px #FF7F50;
+		   background-color: #ddd;
+		   color: black;
+		   padding: 20px 20px;
+		}
+		.container {
+            background-color: transparent;
+            opacity: 0.9;
+            padding: 10px;
+            text-align: center;
+            margin-top: 1%;
+         }
+		.container1 {
+			border-top: solid;
+			border-bottom: solid;
+            background-color: #4EB8F7 ;
+            opacity: 0.7;
+            padding: 10%;
+            text-align: center;
+            margin-top: 10%;
+		}
+		.tags{
+			font-size: 90%;
+			border-top: solid;
+			border-bottom: solid;
+			padding: 1%;
+			text-align: center;
+            margin-top: 3%;
+            background-color: #A7F772 ;
+            column-count: 3;
+            opacity: 0.8;
+		}
+		.owner{
+			text-align: center;
+			border-top: inset;
+			padding: 2%;
+            margin-top: 5%;
+            opacity: 0.8;
+		}
